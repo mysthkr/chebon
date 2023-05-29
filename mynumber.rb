@@ -63,6 +63,7 @@ def same_time_actions
   server_send_file(@filename)
   printer_print_file
   user_get_file(@file)
+  
   server_send_file(@filename)
   printer_print_file
   user_get_file(@file)  
